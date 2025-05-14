@@ -50,7 +50,7 @@
 
 # Create an S3 bucket
 resource "aws_s3_bucket" "cbz_bucket" {
-  bucket = "cbz-frontend-project-bux" # Ensure globally unique
+  bucket = "cbz-frontend-14-05-2025" # Ensure globally unique
 
   tags = {
     Name = "StaticWebsiteBucket"
